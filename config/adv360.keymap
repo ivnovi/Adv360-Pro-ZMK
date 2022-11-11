@@ -33,7 +33,7 @@
     };
     layer_lower {
       bindings = <
-        &trans        &trans      &trans   &trans   &trans     &trans      &trans                                                                  &trans  &kp LC(LA(t))     &kp LC(LA(s))    &kp LC(LA(c))    &kp LC(LA(f))     &kp LC(LA(o))  &trans
+        &trans        &trans      &trans   &trans   &trans     &trans      &trans                                                                  &trans  &kp LC(LA(T))     &kp LC(LA(S))    &kp LC(LA(C))    &kp LC(LA(F))     &kp LC(LA(O))  &trans
         &kp TILDE     &kp EXCL    &kp AT   &kp HASH &kp DLLR   &kp PRCNT   &trans                                                                  &trans  &kp CARET         &kp AMPS         &kp STAR         &kp LPAR          &kp RPAR       &BSPC
         &kp CAPS      &trans      &trans   &trans   &trans     &trans      &trans  &trans     &trans         &trans        &trans          &trans  &trans     &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE
         &trans        &trans      &trans   &trans   &trans     &trans      &trans  &trans     &trans         &trans        &trans          &trans  &trans     &trans    &trans    &kp MINUS  &kp EQUAL &kp HOME  &kp END   &trans
@@ -42,7 +42,7 @@
     };
     layer_raise {
       bindings = <
-        &trans     &trans    &trans  &trans   &trans     &trans            &trans                                                                  &trans  &kp LC(LA(t))     &kp LC(LA(s))    &kp LC(LA(c))    &kp LC(LA(f))     &kp LC(LA(o))    &trans
+        &trans     &trans    &trans  &trans   &trans     &trans            &trans                                                                  &trans  &kp LC(LA(T))     &kp LC(LA(S))    &kp LC(LA(C))    &kp LC(LA(F))     &kp LC(LA(O))    &trans
         &kp GRAVE  &kp N1    &kp N2  &kp N3   &kp N4     &kp N5            &trans                                                               &trans   &kp N6  &kp N7 &kp N8   &kp N9  &kp N0  &trans
         &kp CAPS   &kp F1  &kp F2    &kp F3   &kp F4     &kp F5            &trans  &trans  &trans                  &trans  &trans  &trans   &kp F6  &trans  &trans  &kp LBKT    &kp RBKT  &trans
         &trans     &kp F7  &kp F8    &kp F9   &kp F10    &kp F11           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &trans       &kp PG_UP      &kp PG_DOWN  &trans
