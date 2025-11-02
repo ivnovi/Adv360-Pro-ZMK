@@ -31,7 +31,7 @@
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                 &none         &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none         &none            &none        &none        &none        &none         &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                  &none        &none                                   &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 6 ESCAPE  &lt 1 BACKSPACE  &kp TAB      &lt 2 ENTER  &lt 4 SPACE  &lt 5 DELETE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 7 ESCAPE  &lt 1 BACKSPACE  &kp TAB      &lt 2 ENTER  &lt 4 SPACE  &lt 5 DELETE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -76,6 +76,17 @@
         extra2 {
             display-name = "Purple";
             status = "reserved";
+        };
+
+        MEDIA {
+            display-name = "NAVI";
+            bindings = <
+&trans  &trans    &trans    &trans            &trans          &trans  &trans                                      &trans  &trans      &trans             &trans           &trans      &trans  &trans
+&trans  &trans    &trans    &trans            &trans          &trans  &trans                                      &trans  &trans      &trans             &trans           &trans      &trans  &trans
+&trans  &kp LGUI  &kp LALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp C_PLAY  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans  &trans
+&trans  &trans    &trans    &trans            &trans          &trans                  &trans      &trans                  &trans      &trans             &trans           &trans      &trans  &trans
+&trans  &trans    &trans    &trans            &trans                  &trans  &trans  &trans      &trans  &trans  &trans              &trans             &trans           &trans      &trans  &trans
+            >;
         };
 
         extra3 {
