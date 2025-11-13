@@ -18,6 +18,7 @@
             quick_tap_ms = <100>;
             global-quick-tap;
             flavor = "tap-preferred";
+            permissive-hold;
             bindings = <&kp>, <&kp>;
         };
     };
