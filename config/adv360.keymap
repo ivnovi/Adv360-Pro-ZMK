@@ -18,14 +18,15 @@
       #include "version.dtsi"
 
         hm: homerow_mods {
-            quick-tap-ms = <175>;
-            global-quick-tap;
-            flavor = "tap-preferred";
-            tapping-term-ms = <250>;
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <250>;
+            quick-tap-ms = <175>;
+            require_prior-idle-ms = <150>;
         };
     };
 
